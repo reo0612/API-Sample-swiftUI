@@ -1,0 +1,26 @@
+PODS:
+  - Kingfisher (6.1.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SDWebImageSwiftUI (1.5.0):
+    - SDWebImage (~> 5.7)
+
+DEPENDENCIES:
+  - Kingfisher
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  Kingfisher: f5d8d60a0ef3edd642fd781bae60918599901aff
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
+
+PODFILE CHECKSUM: c618520ca99b934ebcb6828ce5e8df3379e76ea1
+
+COCOAPODS: 1.10.1
