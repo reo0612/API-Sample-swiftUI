@@ -19,7 +19,7 @@
 		833F475E25D77985001E5782 /* API_Sample_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F475D25D77985001E5782 /* API_Sample_swiftUITests.swift */; };
 		833F476925D77985001E5782 /* API_Sample_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F476825D77985001E5782 /* API_Sample_swiftUIUITests.swift */; };
 		835B153C25D9563F005EA9D1 /* iTunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B153B25D9563F005EA9D1 /* iTunesModel.swift */; };
-		835B154525D95A67005EA9D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B154425D95A67005EA9D1 /* API.swift */; };
+		835B154525D95A67005EA9D1 /* iTunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B154425D95A67005EA9D1 /* iTunesAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		833F476825D77985001E5782 /* API_Sample_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Sample_swiftUIUITests.swift; sourceTree = "<group>"; };
 		833F476A25D77985001E5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835B153B25D9563F005EA9D1 /* iTunesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesModel.swift; sourceTree = "<group>"; };
-		835B154425D95A67005EA9D1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		835B154425D95A67005EA9D1 /* iTunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +142,11 @@
 		833F474A25D77981001E5782 /* API-Sample-swiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				835B154325D95A3A005EA9D1 /* API */,
 				831FE37726638758003E6465 /* Utility */,
 				831FE37226637F0A003E6465 /* View */,
 				831FE37126637E99003E6465 /* Repositorys */,
 				831FE37026637E92003E6465 /* ViewModels */,
+				835B154325D95A3A005EA9D1 /* APIClients */,
 				835B153A25D9561F005EA9D1 /* Model */,
 				833F474B25D77981001E5782 /* API_Sample_swiftUIApp.swift */,
 				833F474F25D77984001E5782 /* Assets.xcassets */,
@@ -190,12 +190,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		835B154325D95A3A005EA9D1 /* API */ = {
+		835B154325D95A3A005EA9D1 /* APIClients */ = {
 			isa = PBXGroup;
 			children = (
-				835B154425D95A67005EA9D1 /* API.swift */,
+				835B154425D95A67005EA9D1 /* iTunesAPIClient.swift */,
 			);
-			path = API;
+			path = APIClients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +339,8 @@
 				831FE3742663844B003E6465 /* iTunesRepository.swift in Sources */,
 				831FE37B2663895B003E6465 /* ListRow.swift in Sources */,
 				835B153C25D9563F005EA9D1 /* iTunesModel.swift in Sources */,
-				835B154525D95A67005EA9D1 /* API.swift in Sources */,
 				831FE3792663876C003E6465 /* APIStauts.swift in Sources */,
+				835B154525D95A67005EA9D1 /* iTunesAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
