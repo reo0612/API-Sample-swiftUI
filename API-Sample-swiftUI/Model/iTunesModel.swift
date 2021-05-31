@@ -1,10 +1,10 @@
 
 import Foundation
 
-struct Response: Codable {
-    var results: [iTunesModel]
-}
 struct iTunesModel: Codable {
+    var results: [Result]
+}
+struct Result: Codable {
     var trackId: Int // 書籍データのID
     var trackName: String? // 曲名
     var artistName: String? //アーティスト名

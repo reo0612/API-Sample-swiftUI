@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		831FE36E26637B39003E6465 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 831FE36D26637B39003E6465 /* SwiftPackageProductDependency */; };
+		831FE36E26637B39003E6465 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 831FE36D26637B39003E6465 /* SDWebImageSwiftUI */; };
+		831FE3742663844B003E6465 /* iTunesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE3732663844B003E6465 /* iTunesRepository.swift */; };
+		831FE37626638535003E6465 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE37526638535003E6465 /* ContentViewModel.swift */; };
+		831FE3792663876C003E6465 /* APIStauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE3782663876C003E6465 /* APIStauts.swift */; };
+		831FE37B2663895B003E6465 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE37A2663895B003E6465 /* ListRow.swift */; };
 		833F474C25D77981001E5782 /* API_Sample_swiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F474B25D77981001E5782 /* API_Sample_swiftUIApp.swift */; };
 		833F474E25D77981001E5782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F474D25D77981001E5782 /* ContentView.swift */; };
 		833F475025D77984001E5782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833F474F25D77984001E5782 /* Assets.xcassets */; };
@@ -15,7 +19,7 @@
 		833F475E25D77985001E5782 /* API_Sample_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F475D25D77985001E5782 /* API_Sample_swiftUITests.swift */; };
 		833F476925D77985001E5782 /* API_Sample_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F476825D77985001E5782 /* API_Sample_swiftUIUITests.swift */; };
 		835B153C25D9563F005EA9D1 /* iTunesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B153B25D9563F005EA9D1 /* iTunesModel.swift */; };
-		835B154525D95A67005EA9D1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B154425D95A67005EA9D1 /* API.swift */; };
+		835B154525D95A67005EA9D1 /* iTunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B154425D95A67005EA9D1 /* iTunesAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831FE3732663844B003E6465 /* iTunesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesRepository.swift; sourceTree = "<group>"; };
+		831FE37526638535003E6465 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		831FE3782663876C003E6465 /* APIStauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStauts.swift; sourceTree = "<group>"; };
+		831FE37A2663895B003E6465 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 		833F474825D77981001E5782 /* API-Sample-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API-Sample-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833F474B25D77981001E5782 /* API_Sample_swiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Sample_swiftUIApp.swift; sourceTree = "<group>"; };
 		833F474D25D77981001E5782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +57,7 @@
 		833F476825D77985001E5782 /* API_Sample_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Sample_swiftUIUITests.swift; sourceTree = "<group>"; };
 		833F476A25D77985001E5782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835B153B25D9563F005EA9D1 /* iTunesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesModel.swift; sourceTree = "<group>"; };
-		835B154425D95A67005EA9D1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		835B154425D95A67005EA9D1 /* iTunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831FE36E26637B39003E6465 /* BuildFile in Frameworks */,
+				831FE36E26637B39003E6465 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831FE37026637E92003E6465 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				831FE37526638535003E6465 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		831FE37126637E99003E6465 /* Repositorys */ = {
+			isa = PBXGroup;
+			children = (
+				831FE3732663844B003E6465 /* iTunesRepository.swift */,
+			);
+			path = Repositorys;
+			sourceTree = "<group>";
+		};
+		831FE37226637F0A003E6465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				833F474D25D77981001E5782 /* ContentView.swift */,
+				831FE37A2663895B003E6465 /* ListRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		831FE37726638758003E6465 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				831FE3782663876C003E6465 /* APIStauts.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		833F473F25D77981001E5782 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +142,13 @@
 		833F474A25D77981001E5782 /* API-Sample-swiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				835B154325D95A3A005EA9D1 /* API */,
+				831FE37726638758003E6465 /* Utility */,
+				831FE37226637F0A003E6465 /* View */,
+				831FE37126637E99003E6465 /* Repositorys */,
+				831FE37026637E92003E6465 /* ViewModels */,
+				835B154325D95A3A005EA9D1 /* APIClients */,
 				835B153A25D9561F005EA9D1 /* Model */,
 				833F474B25D77981001E5782 /* API_Sample_swiftUIApp.swift */,
-				833F474D25D77981001E5782 /* ContentView.swift */,
 				833F474F25D77984001E5782 /* Assets.xcassets */,
 				833F475425D77984001E5782 /* Info.plist */,
 				833F475125D77984001E5782 /* Preview Content */,
@@ -146,12 +190,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		835B154325D95A3A005EA9D1 /* API */ = {
+		835B154325D95A3A005EA9D1 /* APIClients */ = {
 			isa = PBXGroup;
 			children = (
-				835B154425D95A67005EA9D1 /* API.swift */,
+				835B154425D95A67005EA9D1 /* iTunesAPIClient.swift */,
 			);
-			path = API;
+			path = APIClients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +215,7 @@
 			);
 			name = "API-Sample-swiftUI";
 			packageProductDependencies = (
-				831FE36D26637B39003E6465 /* SwiftPackageProductDependency */,
+				831FE36D26637B39003E6465 /* SDWebImageSwiftUI */,
 			);
 			productName = "API-Sample-swiftUI";
 			productReference = 833F474825D77981001E5782 /* API-Sample-swiftUI.app */;
@@ -245,7 +289,7 @@
 			);
 			mainGroup = 833F473F25D77981001E5782;
 			packageReferences = (
-				831FE36C26637B38003E6465 /* RemoteSwiftPackageReference */,
+				831FE36C26637B38003E6465 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 833F474925D77981001E5782 /* Products */;
 			projectDirPath = "";
@@ -291,8 +335,12 @@
 			files = (
 				833F474E25D77981001E5782 /* ContentView.swift in Sources */,
 				833F474C25D77981001E5782 /* API_Sample_swiftUIApp.swift in Sources */,
+				831FE37626638535003E6465 /* ContentViewModel.swift in Sources */,
+				831FE3742663844B003E6465 /* iTunesRepository.swift in Sources */,
+				831FE37B2663895B003E6465 /* ListRow.swift in Sources */,
 				835B153C25D9563F005EA9D1 /* iTunesModel.swift in Sources */,
-				835B154525D95A67005EA9D1 /* API.swift in Sources */,
+				831FE3792663876C003E6465 /* APIStauts.swift in Sources */,
+				835B154525D95A67005EA9D1 /* iTunesAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +662,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		831FE36C26637B38003E6465 /* RemoteSwiftPackageReference */ = {
+		831FE36C26637B38003E6465 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -625,9 +673,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		831FE36D26637B39003E6465 /* SwiftPackageProductDependency */ = {
+		831FE36D26637B39003E6465 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 831FE36C26637B38003E6465 /* RemoteSwiftPackageReference */;
+			package = 831FE36C26637B38003E6465 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
