@@ -2,7 +2,14 @@
 import SwiftUI
 import Combine
 
-// メイン画面
+// ****Viewの責務*****
+// UIのレイアウト
+// ユーザーのアクションをViewModelへ入力する
+// ViewModelの出力をUIへバインドする
+
+// ViewModelへ依存しているが、その逆はない
+// ViewにはModelの依存はない
+
 struct ContentView: View {
     // SwiftUIはstructなので基本的に変数の値は変更できない
     // しかし、varの前に@stateを付けることによって値の変更が可能になり

@@ -2,7 +2,13 @@
 import Foundation
 import Combine
 
-// viewからイベントを受け取ってiTunesRepositoryに値を取得させる
+// ****ViewModelの責務*****
+// viewから入力を受け取ってRepositoryに値を取得させる
+// ViewのStateを管理する
+// Stateを加工してViewへ出力する
+
+// Modelに依存しているが、その逆はない
+
 final class ContentViewModel: ObservableObject {
     // @Publishedによって値の変更を監視する
     // ObservableObjectを準拠しないといけない
@@ -16,7 +22,9 @@ final class ContentViewModel: ObservableObject {
     func tapRetryButton() {
         load()
     }
-    // iTunesRepositoryから処理結果を取得し、@Publishedで監視しているstatusプロパティをViewに公開する
+    
+    // Repositoryから結果(Publisher)を貰って、それをsubscriber(sink)でsubscribeする
+    // そして、取得した値を@Publishedで公開しているstatusプロパティによってViewのStateを管理
     private func load() {
         iTunesRepository().fetchiTunes()
             .receive(on: DispatchQueue.main)
