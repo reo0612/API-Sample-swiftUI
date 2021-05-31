@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		831FE36E26637B39003E6465 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 831FE36D26637B39003E6465 /* SwiftPackageProductDependency */; };
+		831FE36E26637B39003E6465 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 831FE36D26637B39003E6465 /* SDWebImageSwiftUI */; };
 		831FE3742663844B003E6465 /* iTunesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE3732663844B003E6465 /* iTunesRepository.swift */; };
 		831FE37626638535003E6465 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE37526638535003E6465 /* ContentViewModel.swift */; };
 		831FE3792663876C003E6465 /* APIStauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FE3782663876C003E6465 /* APIStauts.swift */; };
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831FE36E26637B39003E6465 /* BuildFile in Frameworks */,
+				831FE36E26637B39003E6465 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 			);
 			name = "API-Sample-swiftUI";
 			packageProductDependencies = (
-				831FE36D26637B39003E6465 /* SwiftPackageProductDependency */,
+				831FE36D26637B39003E6465 /* SDWebImageSwiftUI */,
 			);
 			productName = "API-Sample-swiftUI";
 			productReference = 833F474825D77981001E5782 /* API-Sample-swiftUI.app */;
@@ -289,7 +289,7 @@
 			);
 			mainGroup = 833F473F25D77981001E5782;
 			packageReferences = (
-				831FE36C26637B38003E6465 /* RemoteSwiftPackageReference */,
+				831FE36C26637B38003E6465 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 833F474925D77981001E5782 /* Products */;
 			projectDirPath = "";
@@ -662,7 +662,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		831FE36C26637B38003E6465 /* RemoteSwiftPackageReference */ = {
+		831FE36C26637B38003E6465 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -673,9 +673,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		831FE36D26637B39003E6465 /* SwiftPackageProductDependency */ = {
+		831FE36D26637B39003E6465 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 831FE36C26637B38003E6465 /* RemoteSwiftPackageReference */;
+			package = 831FE36C26637B38003E6465 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
